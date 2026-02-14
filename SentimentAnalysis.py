@@ -3,7 +3,7 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 vader_sentiment = SentimentIntensityAnalyzer()
 #be sure to use pip install vaderSentiment for this to work.
 
-sentence_1 = "I had a great time at the movie. It was amazing"
+sentence_1 = "The movie was spectacular! I loved the visual effects!"
 sentence_2 = "Did you see those shoes? Awful!"
 
 print(sentence_1)
@@ -27,4 +27,5 @@ def get_result(score):
         print("statement is zero")
 
 
+#running results on sentence 2.
 get_result(sen2_compound)
